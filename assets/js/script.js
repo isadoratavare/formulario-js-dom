@@ -1,21 +1,24 @@
 function emptyInput(){
     let email = document.getElementById("email").value
     let senha = document.getElementById("senha").value
-    let messages = document.getElementsByClassName("msg")
-    console.log(messages.length)
-
     if(email == ''){
         document.getElementById("email").className="empty"
-        messages[0].className = "msg2"
-    }if (senha == ''){
+        document.getElementById("text-email").className = "msg2"
+    }else{
+        document.getElementById("email").className="email"
+        document.getElementById("text-email").className = "msg"
+    }
+    if (senha == ''){
         document.getElementById("senha").className="empty"
-        messages[0].className = "msg2"
+        document.getElementById("text-password").className = "msg2"
     }
     else{
-        document.getElementById("email").className="email"
         document.getElementById("senha").className="email"
-        messages = document.getElementsByClassName('msg2')
-        messages[0].className = "msg"
-        messages[0].className = "msg"
+        document.getElementById("text-password").className = "msg"
+
+        
     }
+}
+function emailCorrect(){
+
 }
