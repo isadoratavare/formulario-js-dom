@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem-vindo(a)</title>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/validate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
     <main>
         <section id="sec-image" class="container">
-            
+            <img src="./assets/img/taxi-internet-security.png" alt="">
         </section>
         <section id="sec-form" class="container">
             <div>
@@ -32,11 +34,13 @@
             <hr>
             <div class="form-input-container">
                 <span>Email address</span>
-                <input type="text">
+                <input type="text" id="email" class="email">
+                <span class="msg">* O campo email é obrigatorio</span>
             </div>
             <div class="form-input-container">
                 <span>Password</span>
-                <input type="password" name="" id="">
+                <input type="password" name="" id="senha">
+                <span class="msg">* O campo senha é obrigatorio</span>
             </div>
             <div>
                 <input type="checkbox" name="" id="">
@@ -46,7 +50,7 @@
                 <a href="#">Privacy Policy</a>
             </div>
             <div>
-                <button id='btn-register'>
+                <button id='btn-register' onclick="emptyInput()">
                     Register
                 </button>
             </div>
