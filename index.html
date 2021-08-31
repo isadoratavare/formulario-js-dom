@@ -35,12 +35,12 @@
             <div class="form-input-container">
                 <span>Email address</span>
                 <input type="text" id="email" class="email">
-                <span id="text-email"class="msg">* O campo email é obrigatorio</span>
+                <span id="text-email"class="msg"></span>
             </div>
             <div class="form-input-container">
                 <span>Password</span>
                 <input type="password" name="" id="senha">
-                <span id="text-password" class="msg">* O campo senha é obrigatorio</span>
+                <span id="text-password" class="msg"></span>
             </div>
             <div>
                 <input type="checkbox" name="" id="">
@@ -50,7 +50,7 @@
                 <a href="#">Privacy Policy</a>
             </div>
             <div>
-                <button id='btn-register' onclick="emptyInput()">
+                <button id='btn-register' onclick="emptyInput(),emailCorrect(), passwordCorrect()">
                     Register
                 </button>
             </div>

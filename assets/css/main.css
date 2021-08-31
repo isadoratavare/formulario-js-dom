@@ -17,6 +17,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
     background-color: var(--branco);
 }
 main{
@@ -30,7 +31,7 @@ img{
     height: auto;
 }
 h3{
-    font-size: 2.1em;
+    font-size: 2em;
     font-weight: 600;
     margin-bottom: var(--m-b-2);
 }
@@ -43,11 +44,11 @@ h3{
     justify-content: center;
 }
 button{
-    padding: 1.5em 1em;
+    padding: 1em 1em;
     border: 0px;
     border-radius: 15px;
     font-family: 'Poppins';
-    font-size: 1em;
+    font-size: 0.8em;
     width: 48%;
 }
 a{
@@ -110,7 +111,6 @@ span{
 }
 .msg{
     color: var(--pink);
-    display: none;
 }
 @media screen and (max-width: 920px) {
     .container{
