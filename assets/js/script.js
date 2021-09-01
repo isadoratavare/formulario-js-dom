@@ -19,20 +19,25 @@ function emptyInput(){
         document.getElementById("text-password").innerHTML = ""   
     }
 }
+
 function emailCorrect(){
     let email = document.getElementById("email").value
-    console.log(email)
+    let emailCorrect = false
     if (email != ""){
         for (i of email){
             if (i == "@"){
-                document.getElementById("email").className="email"
-                document.getElementById("text-email").innerHTML = ""
-            } else{
-                document.getElementById("email").className="empty"
-                document.getElementById("text-email").innerHTML = "* Email incorreto"
-            }
+                emailCorrect = true
+            } 
+        }
+        if (emailCorrect){
+            document.getElementById("email").className="email"
+            document.getElementById("text-email").innerHTML = ""
+        } else{
+            document.getElementById("email").className="empty"
+            document.getElementById("text-email").innerHTML = "* Email incorreto"
         }
     }
+    
 }
 function passwordCorrect(){
     let senha = document.getElementById("senha").value
