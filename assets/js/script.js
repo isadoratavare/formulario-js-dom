@@ -27,7 +27,10 @@ function emailCorrect(){
             if (i == "@"){
                 document.getElementById("email").className="email"
                 document.getElementById("text-email").innerHTML = ""
-            } 
+            } else{
+                document.getElementById("email").className="empty"
+                document.getElementById("text-email").innerHTML = ""
+            }
         }
     }
 }
