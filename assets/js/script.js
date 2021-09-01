@@ -19,15 +19,13 @@ function emptyInput(){
 }
 function emailCorrect(){
     let email = document.getElementById("email").value
+    console.log(email)
     if (email != ""){
         for (i of email){
             if (i == "@"){
                 document.getElementById("email").className="email"
                 document.getElementById("text-email").innerHTML = ""
-            } else{
-                document.getElementById("email").className="empty"
-                document.getElementById("text-email").innerHTML = "* Email incorreto"
-            }
+            } 
         }
     }
 }
