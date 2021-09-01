@@ -4,4 +4,4 @@
 
 ## Descrição
   É um projeto com tecnologias básicas de front-end web, html, css, e js, de uma tela de inicial de cadastro. O intuito desse projetos é fortificar o aprendizado em Javascript, fazendo a validação dos campos de entrada de textos, usando o métodos do DOM.
-## Para acessar o projeto clique [aqui](https://isadoratavare.github.io/formulario-js-dom/)
+## Para acessar o projeto clique [aqui](https://isadoratavare-formjs.netlify.app/)
