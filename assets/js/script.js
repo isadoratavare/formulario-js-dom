@@ -29,7 +29,7 @@ function emailCorrect(){
                 document.getElementById("text-email").innerHTML = ""
             } else{
                 document.getElementById("email").className="empty"
-                document.getElementById("text-email").innerHTML = ""
+                document.getElementById("text-email").innerHTML = "* Email incorreto"
             }
         }
     }
