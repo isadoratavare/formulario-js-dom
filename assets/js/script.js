@@ -40,7 +40,6 @@ function passwordCorrect(){
         else{
             document.getElementById("senha").className="email"
             document.getElementById("text-password").innerHTML = ""
-    
         }
     } 
 }
