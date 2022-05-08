@@ -7,5 +7,5 @@
 ## To access the project click [here](https://isadoratavare-formjs.netlify.app/)
 
 TO DO:
-[ ] Implementing with React.js
-[ ] Add implement real user auth 
+- [ ] Implementing with React.js
+- [ ] Add implement real user auth 
